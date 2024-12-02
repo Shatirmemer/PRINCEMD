@@ -56,11 +56,6 @@
       "required": false,
       "value": "false"
     },
-    "STATUSLIKES": {
-      "description": "Status likes true false to on off",
-      "required": false,
-      "value": "true"
-    },
     "STATUS_MSG": {
       "description": "Status reply msg",
       "required": false,
@@ -82,7 +77,7 @@
       "value": "_📥-------- *DOWNLOADED SUCCESSFULLY* --------📥_"
     },
     "STATUSVIEW": {
-      "description": "make it true to auto view status",
+      "description": "make it true to auto view status and likes",
       "required": false,
       "value": "false"
     },
