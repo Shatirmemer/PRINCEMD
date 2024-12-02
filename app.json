@@ -21,6 +21,11 @@
       "required": true,
       "value": "public"
     },
+    "DATABASE_URL": {
+      "description": "put mongodb database url or prince bd",
+      "required": false,
+      "value": ""
+    },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
