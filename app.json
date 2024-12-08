@@ -24,7 +24,7 @@
     "DATABASE_URL": {
       "description": "put mongodb or postgres or princedb database url for bots better performance",
       "required": false,
-      "value": "postgresql://princedb_owner:TdWP2hk4GMjZ@ep-weathered-cherry-a5pfqkjl.us-east-2.aws.neon.tech/princedb?sslmode=require"
+      "value": ""
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
@@ -93,11 +93,6 @@
     },
     "REJECTSCALLS": {
       "description": "make it true to reject calls",
-      "required": false,
-      "value": "false"
-    },
-    "AutoReaction": {
-      "description": "make it true to react on chats",
       "required": false,
       "value": "false"
     },

@@ -12,19 +12,19 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     
     let user = global.db.data.users[who];
     
-    // Check if the user is already allowed
-    if (global.allowed.includes(who.split`@`[0])) throw 'The user Mentioned is already allowed to use the bot in DM';
+    // Check if the user is not in the allowed list
+    if (!global.allowed.includes(who.split`@`[0])) throw 'The user mentioned is not allowed to use the bot in DM';
 
-    // Add the user to the allowed list
-    global.allowed.push(`${who.split`@`[0]}`);
+    // Remove the user from the allowed list
+    global.allowed = global.allowed.filter(jid => jid !== who.split`@`[0]);
     
     // Send the confirmation reply
-    conn.reply(m.chat, `@${who.split`@`[0]} got the ultimate pass to use the bot in DM`, m, { mentions: [who] });
+    conn.reply(m.chat, `@${who.split`@`[0]} has been removed from the list of users allowed to use the bot in DM`, m, { mentions: [who] });
 };
 
-handler.help = ['allow <@tag>'];
+handler.help = ['removeallow <@tag>'];
 handler.tags = ['owner'];
-handler.command = ['allow', 'makeallow', 'alw'];
+handler.command = ['removeallow', 'delallow', 'removealw'];
 
 handler.group = false;
 handler.rowner = true;

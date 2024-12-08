@@ -57,6 +57,16 @@ throw false
 bot.testbot = isEnable
 break	  
 
+		  case 'reacts': case 'reaction':
+	case 'autoreaction': case 'reactions': case 'autoreactions':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.autoreacts = isEnable
+break	  
+
 
 case 'antipmspam':
 	case 'pmspam':
@@ -425,118 +435,119 @@ break
 
 
 		  
-    default:
+default:
      if (!/[01]/.test(command)) return m.reply(`
-╭━⊱⊱⊱『 *⚙️BOT SETTINGS⚙️*』
-> bot on off features
-     
-╭━━━━⊱『 *OWNER CMD*』
+━━━━━━━━━━━━━【 *⚙️ BOT SETTINGS* ⚙️ 】━━━━━━━━━━━━━
+                *✨ Toggle Features ✨*
 
-⚙️⛊ *${usedPrefix}public*
-> make bot private and public
+╭━━━━━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━━━━━━╮
 
-⚙️⛊ *${usedPrefix}pmblocker*
-> auto inbox blocker 
+🔒 *\`${usedPrefix}public\`*  
+   ➤ Switch bot between private and public mode
 
-⚙️⛊ *${usedPrefix}antipmspam*
-> auto virus sender blocker 
+🚫 *\`${usedPrefix}pmblocker\`*  
+   ➤ Block spam messages in inbox
 
-⚙️⛊ *${usedPrefix}onlydm*
-> bot will only work in inbox
+💬 *\`${usedPrefix}autoreaction\`*  
+   ➤ Enable auto-reactions to chats
 
-⚙️⛊ *${usedPrefix}onlyg*
-> bot will only work in group
+🦠 *\`${usedPrefix}antipmspam\`*  
+   ➤ Block spam and viruses in PMs
 
-⚙️⛊ *${usedPrefix}autotype*
-> bot will show auto typing on chats
+📩 *\`${usedPrefix}onlydm\`*  
+   ➤ Limit bot to work only in DMs
 
-⚙️⛊ *${usedPrefix}autobio*
-> bot auto bio 
+👥 *\`${usedPrefix}onlyg\`*  
+   ➤ Limit bot to work only in groups
 
-⚙️⛊ *${usedPrefix}antibotclone*
-> jadibot will be left if main bot in the same gp
+⌨️ *\`${usedPrefix}autotype\`*  
+   ➤ Show typing indicator in chats
 
-⚙️⛊ *${usedPrefix}restrict*
-> If restrict mode is on the few on off features will work otherwise won't like antilinkall
+🌐 *\`${usedPrefix}autobio\`*  
+   ➤ Automatically update bot's bio
 
+🚫 *\`${usedPrefix}antibotclone\`*  
+   ➤ Remove cloned bots from groups
 
-╭━━━━⊱『 *ADMIN CMD*』
+🔐 *\`${usedPrefix}restrict\`*  
+   ➤ Restrict features like antilinkall
 
-⚙️⛊ *${usedPrefix}welcome*
-> bot will welcome and goodbye new joiners and lefters
+╭━━━━━━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━━━━━━╮
 
-⚙️⛊ *${usedPrefix}autosticker*
-> bot will create auto sticker if someone will send img/short video
+🌟 *\`${usedPrefix}welcome\`*  
+   ➤ Send welcome and goodbye messages
 
-⚙️⛊ *${usedPrefix}detect*
-> not added yet
+🖼️ *\`${usedPrefix}autosticker\`*  
+   ➤ Automatically create stickers from images and videos
 
-⚙️⛊ *${usedPrefix}jarvis*
-> voice chatbot
+🔍 *\`${usedPrefix}detect\`*  
+   ➤ Feature coming soon…
 
-⚙️⛊ *${usedPrefix}antispam*
-> bot will detect spammers 
+🎤 *\`${usedPrefix}jarvis\`*  
+   ➤ Activate the voice chatbot
 
-⚙️⛊ *${usedPrefix}nocmds*
-> bot will remove command users
+🛡️ *\`${usedPrefix}antispam\`*  
+   ➤ Detect and block spammers
 
-⚙️⛊ *${usedPrefix}antilinkall*
-> bot will detect all links
+🚷 *\`${usedPrefix}nocmds\`*  
+   ➤ Remove users who misuse commands
 
-⚙️⛊ *${usedPrefix}antitoxic*
-> bot will detect bad words
+🌐 *\`${usedPrefix}antilinkall\`*  
+   ➤ Detect and block all types of links
 
-⚙️⛊ *${usedPrefix}antiTiktok*
-> bot will detect tiktok links 
+💢 *\`${usedPrefix}antitoxic\`*  
+   ➤ Block toxic language
 
-⚙️⛊ *${usedPrefix}antiYoutube*
-> bot will detect youtube links
+🎵 *\`${usedPrefix}antiTiktok\`*  
+   ➤ Block Tiktok links
 
-⚙️⛊ *${usedPrefix}antiTelegram*
-> bot will detect telegram links
+📹 *\`${usedPrefix}antiYoutube\`*  
+   ➤ Block YouTube links
 
-⚙️⛊ *${usedPrefix}antiFacebook*
-> bot will detect facebook links
+📱 *\`${usedPrefix}antiTelegram\`*  
+   ➤ Block Telegram links
 
-⚙️⛊ *${usedPrefix}antiInstagram*
-> bot will detect Instagram link
+📘 *\`${usedPrefix}antiFacebook\`*  
+   ➤ Block Facebook links
 
-⚙️⛊ *${usedPrefix}antiTwitter* 
-> bot will detect twitter links 
+📸 *\`${usedPrefix}antiInstagram\`*  
+   ➤ Block Instagram links
 
-⚙️⛊ *${usedPrefix}antiThreads* 
-> bot will detect Threads links 
+🐦 *\`${usedPrefix}antiTwitter\`*  
+   ➤ Block Twitter links
 
-⚙️⛊ *${usedPrefix}antiDiscord* 
-> bot will detect discord links 
+🧵 *\`${usedPrefix}antiThreads\`*  
+   ➤ Block Threads links
 
-⚙️⛊ *${usedPrefix}antiTwitch* 
-> bot will detect twitch links
+🎮 *\`${usedPrefix}antiDiscord\`*  
+   ➤ Block Discord links
 
-⚙️⛊ *${usedPrefix}antinude* 
-> bot will detect +18 things
+🎮 *\`${usedPrefix}antiTwitch\`*  
+   ➤ Block Twitch links
 
+🚫 *\`${usedPrefix}antinude\`*  
+   ➤ Block adult content and explicit links
 
-> bot will detect and remove these all whoever will violate it
+> ⚠️ *Bot automatically removes violators* ⚠️
 
+╭━━━━━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━━━━━╮
 
-╭━━━━⊱『 *USER CMD*』
-⚙️⛊ *${usedPrefix}chatbot*
-> bot will start chating 
+🗨️ *\`${usedPrefix}chatbot\`*  
+   ➤ Start a conversation with the bot
 
-⚙️⛊ *${usedPrefix}princechat or princegpt*
-> Princebot advance chatbot you can ask anything
+🤖 *\`${usedPrefix}princechat\`* or *\`${usedPrefix}princegpt\`*  
+   ➤ Chat with Princebot (ask anything!)
 
-╰━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
 
-*🔻EXAMPLE🔻*
-> example message you can trun on, off like this
+   To toggle features, use *\`${usedPrefix}on\`* or *\`${usedPrefix}off\`*:
 
-*${usedPrefix}on* welcome
-*${usedPrefix}off* welcome
+   *\`${usedPrefix}on welcome\`*  
+   *\`${usedPrefix}off welcome\`*
 `)
       throw false
-  }
+
+}		  
 
 m.reply(`
 ✅ *${type.toUpperCase()}* *${isEnable ? `${mssg.nable}` : `${mssg.disable}`}* ${isAll ? `${mssg.toBot}` : isUser ? '' : `${mssg.toGp}`}
