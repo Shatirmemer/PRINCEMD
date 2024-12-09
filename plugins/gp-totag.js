@@ -10,7 +10,8 @@ handler.help = ['totag']
 handler.tags = ['group']
 handler.command = /^(totag|tag)$/i
 
-handler.admin = false
+handler.admin = true
 handler.group = true
+handler.rowner = true
 
 export default handler
