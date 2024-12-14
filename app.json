@@ -42,12 +42,6 @@
       "value": "false"
     
     },
-    "AlwaysOnline": {
-      "description": "make true to keep bot always online",
-      "required": false,
-      "value": "false"
-    
-    },
     "STATUS_REPLY": {
       "description": "Status reply true false to on off",
       "required": false,
@@ -80,11 +74,6 @@
     },
     "STATUSVIEW": {
       "description": "make it true to auto view status and likes",
-      "required": false,
-      "value": "false"
-    },
-    "Status_Saver": {
-      "description": "make it true to auto save your contacts status",
       "required": false,
       "value": "false"
     },

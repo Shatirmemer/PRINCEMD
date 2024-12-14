@@ -235,10 +235,16 @@ chatbot: false
         if (opts["swonly"] && m.chat !== "status@broadcast") return
         if (typeof m.text !== "string")
             m.text = ""
-const Online = !(typeof process.env.AlwaysOnline === 'undefined' || process.env.AlwaysOnline.toLowerCase() === 'false'); 
+/*const Online = !(typeof process.env.AlwaysOnline === 'undefined' || process.env.AlwaysOnline.toLowerCase() === 'false'); 
 if (Online) { conn.sendPresenceUpdate('available', m.chat); } else { conn.sendPresenceUpdate('unavailable', m.chat);}    
+	    */
 
-	    
+if (settings.alwaysonline) {
+    conn.sendPresenceUpdate('available', m.chat);
+} else {
+    conn.sendPresenceUpdate('unavailable', m.chat);
+}
+     
 	   /* const specificGroup = '120363032639627036@g.us';
 const allowedSender = '923092668108@s.whatsapp.net';
 if (m.chat === specificGroup && m.sender !== allowedSender) {

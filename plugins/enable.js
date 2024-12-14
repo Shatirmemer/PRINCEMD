@@ -58,6 +58,29 @@ bot.testbot = isEnable
 break	
 
 
+		  case 'alwaysonline':
+	case 'online':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.alwaysonline = isEnable
+break	
+
+
+		  case 'statussaver':
+	case 'savestatus':
+		  case 'statussave':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.statussave = isEnable
+break	
+
+
 case 'anticall':
         case 'nocall':
           isAll = true
@@ -422,7 +445,7 @@ break
 		  
 	  
 	case 'autotype':
-    case 'alwaysonline':
+    case 'type':
       isAll = true
       if (!isOwner) {
         global.dfail('owner', m, conn)
@@ -480,6 +503,12 @@ default:
 
 💫 *\`${usedPrefix}autoreaction\`*  
    ➤ Enable auto-reactions to chats
+
+🥏 *\`${usedPrefix}statussaver\`*  
+   ➤ Enable auto statussaver to bot
+
+💻 *\`${usedPrefix}alwaysonline\`*  
+   ➤ Enable alwaysonline to bot
 
 💬 *\`${usedPrefix}autoread\`*  
    ➤ Enable auto-reard chats
