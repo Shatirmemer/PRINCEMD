@@ -1,4 +1,4 @@
-![PRINCE-MD](https://readme-typing-svg.demolab.com?font=Poppins&size=24&pause=800&color=008080&center=true&vCenter=true&width=600&lines=🥰+ASSALAMUALAIKUM+❣️+EVERYONE+👋🏻;😍+WELCOME+TO+PRINCE+MD+BOT+💙;🔥+THE+ULTIMATE+WHATSAPP+BOT+EXPERIENCE!;🎉+ENJOY+UNLIMITED+FEATURES+AND+COMMANDS!;💡+FAST+%7C+RELIABLE+%7C+USER-FRIENDLY+BOT!;✨+LET'S+GET+STARTED!)
+![PRINCE-MD](https://readme-typing-svg.demolab.com?font=Poppins&size=24&pause=800&color=008080&center=true&vCenter=true&width=600&lines=🥰+**ASSALAMUALAIKUM**+❣️+**EVERYONE**+👋🏻;😍+**WELCOME+TO+PRINCE+MD+BOT**+💙;🔥+**THE+ULTIMATE+WHATSAPP+BOT+EXPERIENCE!**;🎉+**ENJOY+UNLIMITED+FEATURES+AND+COMMANDS!**;💡+**FAST+%7C+RELIABLE+%7C+USER-FRIENDLY+BOT!**;✨+**LET'S+GET+STARTED!**)
 
 
 <div align="center" style="margin: 20px; font-family: Arial, sans-serif;">
@@ -16,7 +16,7 @@
     <p style="margin-top: 10px; font-size: 18px; color: #333;">𝙅𝘼𝙕𝘼𝙆𝘼𝙇𝙇𝘼𝙃 𝙏𝙊 𝘿𝘼𝙎𝙏𝘼𝙂𝙀𝙀𝙍 𝙁𝙊𝙍 𝙏𝙃𝙄𝙎 𝘽𝙊𝙏</p>
 </div>
 
-
+<h1 align="center" style="font-family: 'Arial', sans-serif; color: #1a73e8;">𝙋𝙍𝙄𝙉𝘾𝙀 𝙈𝘿 𝘽𝙊𝙏</h1>
 
 <div align="center">
     <a href="https://github.com/DASTAGHIR/PRINCEMD">
@@ -37,7 +37,7 @@
     </a>
 </div>
 
-<h1 align="center" style="font-family: 'Arial', sans-serif; color: #1a73e8;">𝑷𝑹𝑰𝑵𝑪𝑬-𝑴𝑫-𝑩𝑶𝑻</h1>
+
 
 <div align="center">
     <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -52,8 +52,8 @@
 </div>
 <br>
 
-### 💻𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 𝗧𝗢 𝗚𝗘𝗧 𝗣𝗥𝗜𝗡𝗖𝗘 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘
-[![DATABASE_URL](https://img.shields.io/badge/DATABASE_URL-blue?style=for-the-badge&logo=github)](https://github.com/DASTAGHIR/PRINCE-DATABASE-URL)
+### 💻𝘿𝙀𝙋𝙇𝙊𝙔 𝙊𝙉 𝙏𝘼𝙇𝙆 𝘿𝙍𝙊𝙑𝙀 𝙁𝙊𝙍 𝙁𝙍𝙀𝙀
+[![TALK DROVE](https://img.shields.io/badge/HOST.TALK-DROVE-blue?style=for-the-badge&logo=drove)](https://host.talkdrove.com/auth/signup?ref=0BEA2CA9)
 
 <br>
     <br>
@@ -100,6 +100,43 @@
 </div>
 
 <div align="center">
+
+
+---
+
+🔥 𝙋𝙍𝙄𝙉𝘾𝙀 𝙈𝘿 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
+
+🔹 𝙌𝙐𝙍𝘼𝙉 𝙈𝙀𝙉𝙐
+
+🔹 𝘼𝙇𝙇 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 𝘾𝙈𝘿𝙎
+
+🔹 𝘼𝙇𝙇 𝘼𝙄 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎
+
+🔹 𝙎𝙏𝙐𝘿𝙔 𝙈𝙀𝙉𝙐
+
+🔹 𝘼𝙐𝙏𝙊𝙍𝙀𝘼𝘾𝙏𝙄𝙊𝙉
+
+🔹 𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎𝙑𝙄𝙀𝙒 & 𝙇𝙄𝙆𝙀𝙎
+
+🔹 𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙎𝘼𝙑𝙀
+
+🔹 𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙍𝙀𝙋𝙇𝙔
+
+🔹 𝘼𝙐𝙏𝙊𝙍𝙀𝘼𝘿
+
+🔹 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀
+
+🔹 𝘼𝙉𝙏𝙄𝙇𝙄𝙉𝙆
+
+🔹 𝘼𝙉𝙏𝙄𝙎𝙋𝘼𝙈
+
+🔹 𝘼𝙉𝙏𝙄 𝙃𝙀𝙍𝙊𝙆𝙐 𝘽𝘼𝙉
+
+🔹 𝘼𝙇𝙇 𝙊𝙁 𝙔𝙊𝙐𝙍 𝙉𝙀𝙀𝘿𝙎 𝙄𝙉 𝙊𝙉𝙀 𝘽𝙊𝙏
+
+
+
+---
     
 ### 𝘿𝙀𝙋𝙇𝙊𝙔𝙈𝙀𝙉𝙏 𝙊𝙋𝙏𝙄𝙊𝙉𝙎
 </div>
@@ -156,15 +193,22 @@
     <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 </div>
 
-### 💠 [`𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘𝗦 𝗙𝗢𝗥 𝗣𝗥𝗜𝗡𝗖𝗘 𝗕𝗢𝗧`]
-- 🪄 Arabic = ar 
-- 🪄 Urdu = ur
-- 🪄 English Global = en
-- 🪄 Bahasa Indonesia = id
-- 🪄 Portuguese = pt
-- 🪄 Spanish = es
+---
 
-<div align="left">
-    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-</div>
+💠 [𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘𝗦 𝗙𝗢𝗥 𝗣𝗥𝗜𝗡𝗖𝗘 𝗕𝗢𝗧]
+
+🪄 𝘼𝙍𝘼𝘽𝙄𝘾 = 𝘼𝙍
+
+🪄 𝙐𝙍𝘿𝙐 = 𝙐𝙍
+
+🪄 𝙀𝙉𝙂𝙇𝙄𝙎𝙃 𝙂𝙇𝙊𝘽𝘼𝙇 = 𝙀𝙉
+
+🪄 𝘽𝘼𝙃𝘼𝙎𝘼 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼 = 𝙄𝘿
+
+🪄 𝙋𝙊𝙍𝙏𝙐𝙂𝙐𝙀𝙎𝙀 = 𝙋𝙏
+
+🪄 𝙎𝙋𝘼𝙉𝙄𝙎𝙃 = 𝙀𝙎
+
+
+
+---
