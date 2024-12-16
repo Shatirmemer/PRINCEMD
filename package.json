@@ -36,7 +36,6 @@
     "@vitalets/google-translate-api": "^9.2.0",
     "@xct007/tiktok-scraper": "^1.0.2",
     "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
-    "@bochilteam/scraper": "^4.2.4",
     "acrcloud": "^1.4.0",
     "api-dylux": "^1.7.2",
     "awesome-phonenumber": "^2.68.0",
@@ -115,7 +114,10 @@
     "xfarr-api": "^1.0.3",
     "yargs": "^17.3.1",
     "yt-search": "^2.10.3",
-    "@xct007/frieren-scraper": "^0.0.2",
-    "cheerio": "npm:cheerio@1.0.0-rc.12"
-  }  
+    "@xct007/frieren-scraper": "^0.0.2"
+  },
+    "optionalDependencies": {
+    "cheerio": "npm:cheerio@1.0.0-rc.12",
+    "@bochilteam/scraper": "^4.2.4"
+  }
 }
