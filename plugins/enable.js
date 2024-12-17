@@ -495,112 +495,112 @@ default:
 
 ╭━━━━━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━━━━━━╮
 
-🔒 *\`${usedPrefix}public\`*  
+🔒 *\`${usedPrefix + command} public\`*  
    ➤ Switch bot between private and public mode
 
-🚫 *\`${usedPrefix}pmblocker\`*  
+🚫 *\`${usedPrefix + command} pmblocker\`*  
    ➤ Block spam messages in inbox
 
-💫 *\`${usedPrefix}autoreaction\`*  
+💫 *\`${usedPrefix + command} autoreaction\`*  
    ➤ Enable auto-reactions to chats
 
-🥏 *\`${usedPrefix}statussaver\`*  
+🥏 *\`${usedPrefix + command} statussaver\`*  
    ➤ Enable auto statussaver to bot
 
-💻 *\`${usedPrefix}alwaysonline\`*  
+💻 *\`${usedPrefix + command} alwaysonline\`*  
    ➤ Enable alwaysonline to bot
 
-💬 *\`${usedPrefix}autoread\`*  
+💬 *\`${usedPrefix + command} autoread\`*  
    ➤ Enable auto-reard chats
 
-👀 *\`${usedPrefix}antiviewonce\`*  
+👀 *\`${usedPrefix + command} antiviewonce\`*  
    ➤ Enable viewonce to bot
 
-🦠 *\`${usedPrefix}antipmspam\`*  
+🦠 *\`${usedPrefix + command} antipmspam\`*  
    ➤ Block spam and viruses in PMs
 
-📩 *\`${usedPrefix}onlydm\`*  
+📩 *\`${usedPrefix + command} onlydm\`*  
    ➤ Limit bot to work only in DMs
 
-👥 *\`${usedPrefix}onlyg\`*  
+👥 *\`${usedPrefix + command} onlyg\`*  
    ➤ Limit bot to work only in groups
 
-⌨️ *\`${usedPrefix}autotype\`*  
+⌨️ *\`${usedPrefix + command} autotype\`*  
    ➤ Show typing indicator in chats
 
-🌐 *\`${usedPrefix}autobio\`*  
+🌐 *\`${usedPrefix + command} autobio\`*  
    ➤ Automatically update bot's bio
 
-🚫 *\`${usedPrefix}antibotclone\`*  
+🚫 *\`${usedPrefix + command} antibotclone\`*  
    ➤ Remove cloned bots from groups
 
-🔐 *\`${usedPrefix}restrict\`*  
+🔐 *\`${usedPrefix + command} restrict\`*  
    ➤ Restrict features like antilinkall
 
 ╭━━━━━━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━━━━━━╮
 
-🌟 *\`${usedPrefix}welcome\`*  
+🌟 *\`${usedPrefix + command} welcome\`*  
    ➤ Send welcome and goodbye messages
 
-🖼️ *\`${usedPrefix}autosticker\`*  
+🖼️ *\`${usedPrefix + command} autosticker\`*  
    ➤ Automatically create stickers from images and videos
 
-🔍 *\`${usedPrefix}detect\`*  
+🔍 *\`${usedPrefix + command} detect\`*  
    ➤ Feature coming soon…
 
-🎤 *\`${usedPrefix}jarvis\`*  
+🎤 *\`${usedPrefix + command} jarvis\`*  
    ➤ Activate the voice chatbot
 
-🛡️ *\`${usedPrefix}antispam\`*  
+🛡️ *\`${usedPrefix + command} antispam\`*  
    ➤ Detect and block spammers
 
-🚷 *\`${usedPrefix}nocmds\`*  
+🚷 *\`${usedPrefix + command} nocmds\`*  
    ➤ Remove users who misuse commands
 
-🌐 *\`${usedPrefix}antilinkall\`*  
+🌐 *\`${usedPrefix + command} antilinkall\`*  
    ➤ Detect and block all types of links
 
-💢 *\`${usedPrefix}antitoxic\`*  
+💢 *\`${usedPrefix + command} antitoxic\`*  
    ➤ Block toxic language
 
-🎵 *\`${usedPrefix}antiTiktok\`*  
+🎵 *\`${usedPrefix + command} antiTiktok\`*  
    ➤ Block Tiktok links
 
-📹 *\`${usedPrefix}antiYoutube\`*  
+📹 *\`${usedPrefix + command} antiYoutube\`*  
    ➤ Block YouTube links
 
-📱 *\`${usedPrefix}antiTelegram\`*  
+📱 *\`${usedPrefix + command} antiTelegram\`*  
    ➤ Block Telegram links
 
-📘 *\`${usedPrefix}antiFacebook\`*  
+📘 *\`${usedPrefix + command} antiFacebook\`*  
    ➤ Block Facebook links
 
-📸 *\`${usedPrefix}antiInstagram\`*  
+📸 *\`${usedPrefix + command} antiInstagram\`*  
    ➤ Block Instagram links
 
-🐦 *\`${usedPrefix}antiTwitter\`*  
+🐦 *\`${usedPrefix + command} antiTwitter\`*  
    ➤ Block Twitter links
 
-🧵 *\`${usedPrefix}antiThreads\`*  
+🧵 *\`${usedPrefix + command} antiThreads\`*  
    ➤ Block Threads links
 
-🎮 *\`${usedPrefix}antiDiscord\`*  
+🎮 *\`${usedPrefix + command} antiDiscord\`*  
    ➤ Block Discord links
 
-🎮 *\`${usedPrefix}antiTwitch\`*  
+🎮 *\`${usedPrefix + command} antiTwitch\`*  
    ➤ Block Twitch links
 
-🚫 *\`${usedPrefix}antinude\`*  
+🚫 *\`${usedPrefix + command} antinude\`*  
    ➤ Block adult content and explicit links
 
 > ⚠️ *Bot automatically removes violators* ⚠️
 
 ╭━━━━━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━━━━━╮
 
-🗨️ *\`${usedPrefix}chatbot\`*  
+🗨️ *\`${usedPrefix + command} chatbot\`*  
    ➤ Start a conversation with the bot
 
-🤖 *\`${usedPrefix}princechat\`* or *\`${usedPrefix}princegpt\`*  
+🤖 *\`${usedPrefix + command} princechat\`* or *\`${usedPrefix}princegpt\`*  
    ➤ Chat with Princebot (ask anything!)
 
 ━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
